@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body {
+  background-image: url(https://tse1.mm.bing.net/th/id/OIP.rL1KafdmmFgwqmxTBpfbtAHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+}
+
+    .question-page {
+      display: none;
+    }
+    .question-page.active {
+      display: block;
+    }
+    .page, #resultsPage {
+    display: none;
+    }
+
+    .page.active, #resultsPage.active {
+    display: block;
+    }
+    .feedback {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+h1 {
+  font-family: "Shojumaru", system-ui;
+  color: #E6552E;
+  font-size: 40px;
+}
+h2 {
+  font-family: "Limelight", sans-serif;
+  color: #FF6F47;
+  margin-left: 20px;
+  font-size: 30px;
+}
+p {
+  font-family: "Averia Libre", system-ui;
+  margin-left: 20px;
+  font-size: 30px;
+}
+img {
+	border-image: url(https://1.gravatar.com/avatar/494559f20a360e531afce83d959f38a5?s=500&d=identicon&r=g) 16 16 round;
+	border-width: 20px;
+}
+
+.question-page label {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.question-page input[type="radio"] {
+    transform: scale(1.4);
+    margin-right: 8px;
+}
+
+.feedback {
+    font-size: 25px;
+}
